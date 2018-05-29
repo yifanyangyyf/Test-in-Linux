@@ -1,0 +1,17 @@
+mport collections
+class Solution:
+	def compare_string(self,A,B):
+	#return a dict with default value set to 0
+	letters=colections.defaultdict(int)
+	for a in A
+		letter[a] +=1
+
+	for b in B:
+		if b not in letters:
+			return False
+		elif letters[b] <=0:
+			return False
+		else:
+			letters[b]-=1
+	return True
+	
